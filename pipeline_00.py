@@ -8,8 +8,6 @@ from dotenv import load_dotenv
 from duckdb import DuckDBPyRelation
 from pandas import DataFrame
 
-from datetime import datetime
-
 load_dotenv()
 
 def baixar_os_arquivos_do_google_drive(url_pasta, diretorio_local):
