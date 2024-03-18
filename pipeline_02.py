@@ -97,5 +97,8 @@ def pipeline():
             print(f"Arquivo {nome_arquivo} já foi processado anteriormente.")
             logs.append(f"Arquivo {nome_arquivo} já foi processado anteriormente")
 
+    return logs
+
+
 if __name__ == "__main__":
     pipeline()
